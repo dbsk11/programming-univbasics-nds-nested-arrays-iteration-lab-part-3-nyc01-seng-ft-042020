@@ -10,8 +10,9 @@ def join_nested_strings(src)
       element_index += 1
     end
     row_index += 1
+    join_string.join(" ")
   end
-  join_string.join(" ")
+  
   # src will be an Array of Arrays of Strings and Integers
   # Combine all Strings present in the AoA into a single value and return it
 end
